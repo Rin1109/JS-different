@@ -12,7 +12,7 @@
 </head>
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light lock-padding">
          <div class="container">
          <a class="navbar-brand" href="#">
             <img class="logo" title="Homepage" src="https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png" alt="Logo">
@@ -32,7 +32,7 @@
                <a class="nav-link" title="About me" href="#">About me</a>
             </li>
             <li class="nav-item hover">
-               <a class="nav-link" title="Contacts" href="#">Popup</a>
+               <a class="nav-link" title="Contacts" href="#popup">Popup</a>
             </li>
          </ul>
          </div>
@@ -46,6 +46,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores facere nobis reiciendis explicabo fuga perferendis eius. Fugit, repellat aperiam. Pariatur, quis iusto. Unde eaque alias eos incidunt, earum laborum?</p>
             <img class="img2" src="https://img3.akspic.ru/crops/9/5/9/5/85959/85959-vecher-avtomobil-trafik-empajr_stejt_bilding-doroga-3840x2160.jpg" alt="">
          </div>
          <div class="col-6">
@@ -54,9 +58,10 @@
       </div>
    </div>
    <div id="popup" class="popup">
+      <a href="#header" class="popup-area"></a>
       <div class="popup__body">
          <div class="popup__content">
-            <a href="" class="popup__close">X</a>
+            <a href="#header" class="popup__close">X</a>
             <div class="popup__tittle">Это модальное окно №1</div>
             <div class="popup__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque expedita doloremque alias voluptate sint animi, sunt delectus inventore iste repudiandae debitis ea fugit consequuntur! Repudiandae porro sed cumque quos deserunt.</div>
          </div>
