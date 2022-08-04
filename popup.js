@@ -6,6 +6,16 @@ $(".gallery-list").magnificPopup({
    }
 });
 
+$.ajax({
+   ...
+   success: function (dataArray) {
+       if (dataArray.length) {
+           console.log("Есть данные");
+       }
+   },
+   ...
+});
+
 const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
 const lockPadding = document.querySelectorAll('.lock-padding');
