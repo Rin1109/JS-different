@@ -1,3 +1,11 @@
+$(".gallery-list").magnificPopup({
+   delegete: "a",
+   type: "image",
+   gallery: {
+      enabled: true
+   }
+});
+
 const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
 const lockPadding = document.querySelectorAll('.lock-padding');
@@ -54,3 +62,5 @@ function popupClose(popupActive, doUnlock = true) {
       }
    }
 }
+
+
