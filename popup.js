@@ -1,20 +1,19 @@
-$(".gallery-list").magnificPopup({
-   delegete: "a",
-   type: "image",
-   gallery: {
-      enabled: true
-   }
-});
-
-$.ajax({
-   ...
-   success: function (dataArray) {
-       if (dataArray.length) {
-           console.log("Есть данные");
-       }
+var swiper = new Swiper(".card_slider", {
+   slidesPerView: 3,
+   spaceBetween: 30,
+   slidesPerGroup: 3,
+   loop: true,
+   loopFillGroupWithBlank: true,
+   pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
    },
-   ...
-});
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      },
+   });
+
 
 const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
