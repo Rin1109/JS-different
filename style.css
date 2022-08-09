@@ -23,6 +23,11 @@
    margin: 20px auto;
 }
 
+.marathon a {
+   text-decoration: none;
+   color: black;
+}
+
 .collapse {
    display: flex!important;
    flex-basis: auto;
