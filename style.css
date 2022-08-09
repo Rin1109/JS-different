@@ -17,6 +17,12 @@
    width: 100%;
 }
 
+.home-img {
+   width: 50px;
+   display: block;
+   margin: 20px auto;
+}
+
 .collapse {
    display: flex!important;
    flex-basis: auto;
